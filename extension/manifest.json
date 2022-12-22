@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Youtube Fake News Video Detector",
+    "description": "An extension to detect fake news in YouTube videos",
+    "version": "1.0",
+    "permissions": ["activeTab", "declarativeContent"],
+    "host_permissions": ["http://127.0.0.1:5000/*"],
+
+    "action": {
+        "default_title": "Scan this video",
+        "default_icon": {
+            "16": "images/icon.jpeg",
+            "32": "images/icon.jpeg",
+            "64": "images/icon.jpeg",
+            "128": "images/icon.jpeg"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "16": "images/icon.jpeg",
+        "32": "images/icon.jpeg",
+        "64": "images/icon.jpeg",
+        "128": "images/icon.jpeg"
+    }
+}
